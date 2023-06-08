@@ -11,5 +11,3 @@ import React from 'react';
         <Main />
     </Router>,
     );
-
-    // test code; still not working 

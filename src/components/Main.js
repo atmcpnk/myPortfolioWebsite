@@ -8,7 +8,7 @@ const Main = () => {
         <>
             <div>
                 <nav>
-                    <h1>React Boilerplate</h1>
+                    <h1>abraham flores</h1>
                     {/* add NavLinks here for Home Page, services, About us, etc.. */}
                 </nav>
                 {/* add routes here for each of the above */}

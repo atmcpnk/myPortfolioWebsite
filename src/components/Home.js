@@ -9,6 +9,7 @@ const Home = () => {
                     <h1 id="home-title">hello 👋</h1>
                     {/* selfie / headshot here offset to the side, maybe place this in a div */}
                     <h3>welcome to my site</h3>
+                    <p>short bio on myself</p>
                 </main>
             </div>
         </>

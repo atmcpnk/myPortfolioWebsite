@@ -1,6 +1,7 @@
 import React from 'react';
 import { Routes, Route, NavLink } from 'react-router-dom';
 import Home from './Home';
+import Projects from './Projects';
 
 // entry point for all component routes 
 
@@ -13,10 +14,12 @@ const Main = () => {
                     <NavLink to='/'>
                     <h1>abraham flores</h1>
                     </NavLink>
+                    <NavLink to='/projects'>projects</NavLink>
                 </nav>
                 {/* add routes here for each of the above */}
                 <Routes>
                     <Route path='/' element={<Home />} />
+                    <Route path='/projects' element={<Projects />} />
                 </Routes>
             </div>
         </>

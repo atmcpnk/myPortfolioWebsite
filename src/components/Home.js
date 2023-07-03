@@ -1,5 +1,6 @@
 import React from "react";
 import { Routes, Route, NavLink } from "react-router-dom";
+import Footer from "./Footer";
 
 const Home = () => {
     return(
@@ -12,6 +13,9 @@ const Home = () => {
                     <p>short bio on myself</p>
                 </main>
             </div>
+            <footer>
+                <Footer />
+            </footer>
         </>
     )
 };

@@ -6,7 +6,7 @@ const mode = process.env.NODE_ENV || 'development';
     mode: mode,
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'dist'),
+        path: path.resolve(__dirname, 'build'),
         filename: 'bundle.js'
     },
     devtool: 'source-map',

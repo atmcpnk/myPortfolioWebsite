@@ -1,4 +1,5 @@
 {
+  "homepage":"http://atmcpnk.github.io/myPortfolioWebsite",
   "name": "react-boilerplate",
   "version": "1.0.0",
   "description": "",
@@ -6,6 +7,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development webpack serve",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
@@ -20,6 +23,7 @@
     "@babel/core": "^7.22.1",
     "@babel/preset-react": "^7.22.3",
     "babel-loader": "^9.1.2",
+    "gh-pages": "^5.0.0",
     "html-webpack-plugin": "^5.5.1",
     "webpack": "^5.84.1",
     "webpack-cli": "^5.1.1",

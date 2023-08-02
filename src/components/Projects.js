@@ -17,7 +17,7 @@ const Projects = () => {
                 </div>
                 <div>
                     <h2>gracebuster e-commerce</h2>
-                    <p>project 3 description</p>
+                    <p>"gracebuster" is a fullstack e-commerce site, this was a project done while attending Fullstack Academy, titled the "gracehopper project". In our version of the site, we allow users to pick their favorite classic moview, add them to their cart or guest cart and checkout. Working with three other software engineering students, I was tasked with the front-end development, this includes file structuring, routing, component creation, and styling. Built in React.js and CSS to utilize reusable components and screen responsiveness respectively. </p>
                 </div>
             </div>
             <footer>

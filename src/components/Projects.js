@@ -8,7 +8,8 @@ const Projects = () => {
             <div>
                 <h1>projects 👨‍💻</h1>
                 <div>
-                    <h2>my portfolio site!</h2>
+                    <a href='https://github.com/atmcpnk/myPortfolioWebsite' target="_blank">
+                    <h2>my portfolio site!</h2></a>
                     <p>this site was built by me utilizing a react framework.  </p>
                 </div>
                 <div>

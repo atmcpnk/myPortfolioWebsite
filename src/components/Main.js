@@ -12,7 +12,7 @@ const Main = () => {
                 <nav id='nav-bar'>
                     {/* add NavLinks here for Home Page, services, About us, etc.. */}
                     <NavLink to='/'>
-                    <h1>abraham flores</h1>
+                    <h1>a.f.</h1>
                     </NavLink>
                     <NavLink to='/projects'>projects</NavLink>
                 </nav>

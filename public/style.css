@@ -2,6 +2,9 @@
 
 /* come up with a color pallet that works */
 
+@import url('https://fonts.googleapis.com/css?family=Alumni+Sans');
+/* font family is 'Alumni Sans', Sans-serif */
+
 #body {
     background-color: dimgray;
 }

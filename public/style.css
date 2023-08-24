@@ -3,6 +3,131 @@
 @import url('https://fonts.googleapis.com/css?family=Alumni+Sans');
 /* font family is 'Alumni Sans', Sans-serif */
 
-#body {
-    background-color: dimgray;
+body {
+    background-color: #281B24;
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "alumni sans", sans-serif;
+}
+
+#nav-bar-ctr {
+    padding: 20px;
+    display: block;
+}
+
+#nav-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: #BDD6DA;
+    font-size: 3rem;
+    z-index: 10;
+}
+
+/* Mobile responsive styling */
+@media (max-width: 768px) {
+    #nav-bar-ctr {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    #nav-bar a {
+        margin: 10px 0;
+        font-size: 2rem;
+    }
+
+    body #home-ctr {
+        transform: translateY(-50px);
+    }
+
+    body #home-title {
+        font-size: 3.5rem;
+        margin-bottom: 0px;
+    }
+
+    body #position-title {
+        font-size: 2rem;
+        margin-bottom: 10px;
+    }
+
+    body #home-bio {
+        width: 80%;
+        font-size: 1.5rem;
+    }
+}
+
+#home-ctr {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: calc(100vh - 40px - 40px);
+    text-align: center;
+    color: #74858F;
+    transform: translateY(-100px);
+}
+
+#home-title {
+    font-size: 8rem;
+    margin-bottom: 20px;
+}
+
+#position-title {
+    font-size: 5rem;
+    margin-bottom: 20px;
+}
+
+#home-bio {
+    width: 40%;
+    font-size: 2rem;
+}
+
+#about-bio-link {
+    text-decoration: none;
+    color: #BDD6DA;
+}
+
+body, #root, #body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+#footer-ctr {
+    margin-top: auto;
+    padding: 10px 0;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    color: #74858F
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a {
+    color: #BDD6DA;
+    margin: 0 5px;
+    text-decoration: none;
+}
+
+#footer-box {
+    font-size: 1.5rem;
+    padding: 10px;
 }

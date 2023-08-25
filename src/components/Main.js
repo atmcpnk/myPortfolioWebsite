@@ -15,8 +15,8 @@ const Main = () => {
                     <NavLink to='/'>
                     <h1>a.f.</h1>
                     </NavLink>
-                    <NavLink to='/projects'>projects</NavLink>
-                    <NavLink to='/about'>about</NavLink>
+                    <NavLink to='/projects' id='nav-links'>projects</NavLink>
+                    <NavLink to='/about' id='nav-links'>about</NavLink>
                 </nav>
                 {/* add routes here for each of the above */}
                 <Routes>

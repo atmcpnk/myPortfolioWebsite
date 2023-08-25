@@ -35,6 +35,28 @@ body {
     z-index: 10;
 }
 
+#nav-links {
+    position: relative;
+}
+
+#nav-links::after{
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #74858F;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#nav-links:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
 /* Mobile responsive styling */
 @media (max-width: 768px) {
     #nav-bar-ctr {

@@ -89,6 +89,32 @@ body {
         width: 80%;
         font-size: 1.5rem;
     }
+
+    body #projects-title {
+        font-size: 3rem;
+    }
+
+    body #project-1-title,
+    body #project-2-title,
+    body #project-3-title {
+        font-size: 2rem;
+    }
+
+    body #project-card {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body #project-card:nth-child(even) {
+        flex-direction: column; 
+    }
+
+    body #project-card a, 
+    body #project-card h2, 
+    body #project-card p {
+        width: 100%; 
+        text-align: center;  
+    }
 }
 
 /* home.js styling */
@@ -160,3 +186,82 @@ footer a {
     padding: 10px;
 }
 
+/* projects styling */
+
+#projects-title {
+    text-align: center;
+    margin-top: 50px;
+    color:#74858F;
+    font-size: 5rem;
+}
+
+#projects-ctr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#project-card {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    justify-content: space-between;
+    width: 80%;
+    margin: 20px 0;
+}
+
+#project-card:nth-child(even) {
+    flex-direction: row-reverse;
+}
+
+#project-card a, 
+#project-card h2, 
+#project-card p {
+    width: 500px;
+    margin: 0;
+    padding: 10px;
+}
+
+#project-1-title,
+#project-2-title,
+#project-3-title {
+    color: #BDD6DA;
+    font-size: 3rem;
+}
+
+#project-1-link,
+#project-2-link,
+#project-3-link {
+    text-decoration: none;
+    position: relative;
+}
+
+#project-1-link::after,
+#project-2-link::after,
+#project-3-link::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #74858F;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+
+#project-1-link:hover::after,
+#project-2-link:hover::after,
+#project-3-link:hover::after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+
+#project-1-description, 
+#project-2-description, 
+#project-3-description {
+    width: 500px;
+    color: #74858F;
+    font-size: 2rem;
+}

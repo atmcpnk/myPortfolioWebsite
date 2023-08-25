@@ -16,6 +16,8 @@ body {
     font-family: "alumni sans", sans-serif;
 }
 
+/* nav-bar styling */
+
 #nav-bar-ctr {
     padding: 20px;
     display: block;
@@ -89,6 +91,8 @@ body {
     }
 }
 
+/* home.js styling */
+
 #home-ctr {
     display: flex;
     flex-direction: column;
@@ -126,6 +130,8 @@ body, #root, #body {
     height: 100vh;
 }
 
+/* footer styling */
+
 #footer-ctr {
     margin-top: auto;
     padding: 10px 0;
@@ -153,3 +159,4 @@ footer a {
     font-size: 1.5rem;
     padding: 10px;
 }
+

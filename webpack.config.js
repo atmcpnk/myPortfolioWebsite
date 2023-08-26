@@ -24,12 +24,12 @@ const mode = process.env.NODE_ENV || 'development';
         template: './index.html'
         })
     ],
-    devServer: {
-        static: {
-        directory: path.join(__dirname, 'public'), // changed from public to build directory
-        },
-        compress: true,
-        port: 9000,
-        historyApiFallback: true
-        }
+    // devServer: {
+    //     // static: {
+    //     // directory: path.join(__dirname, 'public'), // changed from public to build directory
+    //     // },
+    //     compress: true,
+    //     port: 9000,
+    //     historyApiFallback: true
+    //     }
     };

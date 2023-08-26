@@ -6,7 +6,7 @@ const mode = process.env.NODE_ENV || 'development';
     mode: mode,
     entry: './src/index.js',
     output: {
-        path: path.resolve(__dirname, 'build'),
+        path: path.resolve(__dirname, 'public'),
         filename: 'bundle.js'
     },
     devtool: 'source-map',
@@ -26,7 +26,7 @@ const mode = process.env.NODE_ENV || 'development';
     ],
     devServer: {
         static: {
-        directory: path.join(__dirname, 'build'), // changed from public to build directory
+        directory: path.join(__dirname, 'public'), // changed from public to build directory
         },
         compress: true,
         port: 9000,

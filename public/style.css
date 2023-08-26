@@ -61,6 +61,8 @@ body {
 
 /* Mobile responsive styling */
 @media (max-width: 768px) {
+
+    /* navbar mobile styling */
     #nav-bar-ctr {
         flex-direction: column;
         align-items: flex-start;
@@ -71,6 +73,7 @@ body {
         font-size: 2rem;
     }
 
+    /* home page mobile styling */
     body #home-ctr {
         transform: translateY(-50px);
     }
@@ -90,14 +93,16 @@ body {
         font-size: 1.5rem;
     }
 
+    /* projects page mobile styling */
     body #projects-title {
-        font-size: 3rem;
+        font-size: 3.5rem;
     }
 
     body #project-1-title,
     body #project-2-title,
     body #project-3-title {
-        font-size: 2rem;
+        font-size: 2.5rem;
+        align-items: center;
     }
 
     body #project-card {
@@ -113,7 +118,58 @@ body {
     body #project-card h2, 
     body #project-card p {
         width: 100%; 
-        text-align: center;  
+        text-align: left;
+        text-indent: 10px;
+    }
+
+    /* about page mobile styling */
+    body #about-ctr {
+        margin-top: 20px;
+    }
+
+    body #about-card,
+    body #hobbies-card,
+    body #contact-card {
+        align-items: center;
+    }
+
+    body #headshot-and-shredding,
+    body #shredding-and-band {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    body #about-title {
+        font-size: 3.5rem;
+        float: none;
+        text-align: center;
+        margin-right: 0;
+    }
+
+    body #hobbies-title,
+    body #contact-title {
+        float: none;
+        text-align: center;
+        margin-right: 0;
+        font-size: 2.5rem;
+    }
+
+    body #about-bio,
+    body #hobbies-bio,
+    body #contact-bio {
+        float: none;
+        text-align: left;
+        width: 100%;
+    }
+
+    body #single-headshot-img,
+    body #shredding-img,
+    body #band-img {
+        position: static;
+        right: 0;
+        width: 70%;
+        margin: 20px 0;
     }
 }
 
@@ -341,7 +397,7 @@ footer a {
 
 #band-img {
     position: relative;
-    right: 15%;
+    left: 8%;
     width: 40%;
     height: auto;
     margin-bottom: 20px;

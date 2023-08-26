@@ -20,7 +20,7 @@ const Projects = () => {
                 <div id='project-card'>
                     <a href='https://github.com/orgs/GraceShopper-Team-GraceBuster/repositories' target="_blank" id='project-3-link'>
                     <h2 id='project-3-title'>gracebuster e-commerce</h2></a>
-                    <p id='project-3-description'>"gracebuster" is a fullstack e-commerce site, this was a project done while attending Fullstack Academy, titled the "gracehopper project". In our version of the site, we allow users to pick their favorite classic moview, add them to their cart or guest cart and checkout. Working with three other software engineering students, I was tasked with the front-end development, this includes file structuring, routing, component creation, and styling. Built in React.js and CSS to utilize reusable components and screen responsiveness respectively. </p>
+                    <p id='project-3-description'>"gracebuster" is a fullstack e-commerce site. Here we allow users to pick their favorite classic moview, add them to their cart or guest cart and checkout. Working with three other software engineering students, I was tasked with the front-end development, this includes file structuring, routing, component creation, and styling. Built in React.js and CSS to utilize reusable components and screen responsiveness respectively. </p>
                 </div>
             </div>
             <footer>

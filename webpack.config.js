@@ -18,21 +18,4 @@ module.exports = {
         },
       ],
     },
-<<<<<<< HEAD
   };
-=======
-    plugins: [
-        new HtmlWebpackPlugin({
-        template: './index.html'
-        })
-    ],
-    devServer: {
-        static: {
-        directory: path.join(__dirname, 'public'), // changed from public to build directory
-        },
-        compress: true,
-        port: 9000,
-        historyApiFallback: true
-        }
-    };
->>>>>>> cb32f7eaacacc3e33db859dee783c4ee13a55b63

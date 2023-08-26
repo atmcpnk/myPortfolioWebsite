@@ -26,7 +26,7 @@ const mode = process.env.NODE_ENV || 'development';
     ],
     devServer: {
         static: {
-        directory: path.join(__dirname, 'public'),
+        directory: path.join(__dirname, 'build'), // changed from public to build directory
         },
         compress: true,
         port: 9000,

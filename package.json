@@ -6,10 +6,10 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "webpack serve",
+    "start": "NODE_ENV=development webpack serve",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
-    "build": "webpack"
+    "build": "NODE_ENV=production webpack"
   },
   "keywords": [],
   "author": "",

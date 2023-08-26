@@ -23,8 +23,8 @@ const About = () => {
                     I also like playing games such as Counter Strike, Red Dead Redemption II, and Sid Meier’s Civilization VI to name a few! I jump around genres depending on how I feel, either competitive, relaxed, or strategic. 
                     </p>
                     <img id='shredding-img' src='/images/shredding_pic.jpg' alt='playing-guitar'/>
+                    <img id="band-img" src='/images/band_in_line.jpeg' alt="band-pic"/>
                 </div>
-                <img id="band-img" src='/images/band_in_line.jpeg' alt="band-pic"/>
                 <div id='contact-card'>
                     <h1 id='contact-title'>contact me ✉️</h1>
                     <p id='contact-bio'>connect with me on <a href='https://www.linkedin.com/in/abrahamflores1/' target='_blank' rel='noreferrer' id='about-linkedin-link' >LinkedIn</a>, and find me on <a href='https://github.com/atmcpnk' target="_blank" rel='noreferrer' id='about-github-link'>GitHub</a>!</p>

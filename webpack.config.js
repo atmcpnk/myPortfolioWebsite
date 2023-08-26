@@ -1,21 +1,35 @@
-module.exports = {
-    entry: ['./src/index.js'],
+const mode = process.env.NODE_ENV || 'development';
+    const HtmlWebpackPlugin = require('html-webpack-plugin');
+    const path = require('path');
+
+    module.exports = {
+    mode: mode,
+    entry: './src/index.js',
     output: {
-      path: __dirname + '/public',
-      filename: 'bundle.js',
+        path: path.resolve(__dirname, 'app/public'),
+        filename: 'bundle.js'
     },
-    context: __dirname,
     devtool: 'source-map',
     module: {
-      rules: [
+        rules: [
         {
-          test: /\.jsx?$/,
-          exclude: /node_modules/,
-          loader: 'babel-loader',
-          options: {
-            presets: ['@babel/preset-env', '@babel/preset-react'],
-          },
-        },
-      ],
+            test: /\.jsx?$/,
+            exclude: /node_modules/,
+            loader: 'babel-loader'
+        }
+        ]
     },
-  };
+    plugins: [
+        new HtmlWebpackPlugin({
+        template: './index.html'
+        })
+    ],
+    devServer: {
+        static: {
+        directory: path.join(__dirname, 'app/public'), // changed from public to build directory
+        },
+        compress: true,
+        port: 9000,
+        historyApiFallback: true
+        }
+    };

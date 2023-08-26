@@ -150,6 +150,10 @@ body {
     color: #BDD6DA;
 }
 
+#about-bio-link:hover {
+    color: #A4BDBE;
+}
+
 body, #root, #body {
     display: flex;
     flex-direction: column;
@@ -264,4 +268,102 @@ footer a {
     width: 500px;
     color: #74858F;
     font-size: 2rem;
+}
+
+/* about page styling */
+
+#about-ctr {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    margin-top: 80px;
+}
+
+#about-card,
+#hobbies-card,
+#contact-card {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 80%;
+    margin-bottom: 20px;
+}
+
+#about-title,
+#hobbies-title,
+#contact-title {
+    float: right;
+    margin-right: 20px;
+    text-align: right;
+    font-size: 4rem;
+    color: #74858F;
+    padding-bottom: 10px;
+}
+
+#about-bio,
+#hobbies-bio,
+#contact-bio {
+    float: right;
+    width: 60%;
+    flex: 2;
+    text-align: left;
+    font-size: 2rem;
+    color: #74858F;
+    text-indent: 20px;
+}
+
+#contact-card {
+    padding-bottom: 20%;  /* to space apart the footer from the content */
+}
+
+#single-headshot-img {
+    position: absolute;
+    right: 10%;
+    top: 0;
+    width: 30%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+#shredding-img {
+    position: absolute;
+    right: 10%;
+    width: 30%;
+    height: auto;
+    top: 43%;
+    margin-bottom: 20%;
+    border-radius: 25px;
+}
+
+#band-img {
+    position: relative;
+    right: 15%;
+    width: 40%;
+    height: auto;
+    margin-bottom: 20px;
+    border-radius: 25px;
+}
+
+#about-linkedin-link,
+#about-github-link {
+    text-decoration: none;
+    color: #BDD6DA;
+}
+
+#about-linkedin-link:hover,
+#about-github-link:hover {
+    color: #A4BDBE;
+}
+
+#hvnted-site-link {
+    text-decoration: none;
+    color: #BDD6DA;
+}
+
+#hvnted-site-link:hover {
+    color: #A4BDBE;
 }

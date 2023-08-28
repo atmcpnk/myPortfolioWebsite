@@ -5,7 +5,7 @@ import Footer from "./Footer";
 const Home = () => {
     return(
         <>
-            <div>
+            <div id="home-card">
                 <main id="home-ctr">
                     <h1 id="home-title">abraham flores</h1>
                     <h3 id="position-title">fullstack developer</h3>

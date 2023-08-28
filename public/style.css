@@ -175,15 +175,23 @@ body {
 
 /* home.js styling */
 
+#home-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
 #home-ctr {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    height: calc(100vh - 40px - 40px);
+    margin-top: 15%;
     text-align: center;
     color: #74858F;
-    transform: translateY(-100px);
+    margin-bottom: 20%;
 }
 
 #home-title {

@@ -1,1 +1,1 @@
-My website! Built with React, Redux, and React Router!
+My website! Built in React.js!

@@ -101,7 +101,8 @@ body {
     body #project-1-title,
     body #project-2-title,
     body #project-3-title,
-    body #project-4-title {
+    body #project-4-title,
+    body #project-5-title {
         font-size: 2.5rem;
         align-items: center;
     }
@@ -294,7 +295,8 @@ footer a {
 #project-1-title,
 #project-2-title,
 #project-3-title,
-#project-4-title {
+#project-4-title,
+#project-5-title {
     color: #BDD6DA;
     font-size: 3rem;
 }
@@ -302,7 +304,8 @@ footer a {
 #project-1-link,
 #project-2-link,
 #project-3-link,
-#project-4-link {
+#project-4-link,
+#project-5-link {
     text-decoration: none;
     position: relative;
 }
@@ -310,7 +313,8 @@ footer a {
 #project-1-link::after,
 #project-2-link::after,
 #project-3-link::after,
-#project-4-link::after {
+#project-4-link::after,
+#project-5-link::after {
     content: '';
     position: absolute;
     width: 100%;
@@ -326,7 +330,8 @@ footer a {
 #project-1-link:hover::after,
 #project-2-link:hover::after,
 #project-3-link:hover::after,
-#project-4-link:hover::after {
+#project-4-link:hover::after,
+#project-5-link:hover::after {
     transform: scaleX(1);
     transform-origin: bottom left;
 }
@@ -334,7 +339,8 @@ footer a {
 #project-1-description, 
 #project-2-description, 
 #project-3-description,
-#project-4-description {
+#project-4-description,
+#project-5-description {
     width: 500px;
     color: #74858F;
     font-size: 2rem;
